@@ -23,6 +23,7 @@ $navigation = <<<END
 <a href="gb.php">Gästbok</a>
 <a href="#">Spel</a>
 <a href="contact.php">Kontakt</a>
+<a href="login.php">Login</a>
 
 </nav>
 
