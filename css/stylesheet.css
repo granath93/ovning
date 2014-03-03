@@ -1,0 +1,181 @@
+body{
+font-family: calibri;
+
+}
+.content{
+	background-color: white;
+	width:1000px;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-border-radius: 15px; 
+	-moz-border-radius: 15px; /
+	border-radius: 15px;
+	box-shadow: 5px 5px 30px 2px #838B8B;
+	margin-top:30px;
+	margin-bottom: 20px;
+}
+
+
+.listItem{
+	height: 200px;
+	width: 100px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+}
+button{
+	height: 30px;
+	width: 80px;
+	font-family: verdana ;
+	font-size: 20px;
+	text-align-left: auto;
+	text-align-right: auto;
+	display: block;
+	margin: 50px;
+
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; /
+	border-radius: 5px;
+
+}
+
+form{
+margin:20px;
+padding: 20px;
+color:black;
+font-size:20px;
+text-align: center;
+display:block;
+line-height: 24px;
+
+
+}
+
+
+
+html{
+
+background-color: lightBlue;
+
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	padding:10px;
+	margin:10px;
+}
+
+
+p{
+	font-size: 20px;
+	text-align: center;
+	padding:10px;
+	margin:10px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    
+     display: block;
+    margin-left: auto;
+    margin-right: auto 
+    
+}
+
+nav {
+
+padding:15px 15px 5px 15px ;
+margin:20px;
+background-color:lightBlue;
+-webkit-border-radius: 2px; 
+-moz-border-radius: 2px; /
+width: 50px;
+height: 30px;
+text-align: center;
+}
+
+nav a{
+	margin:20px;
+	color:black;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:white;
+}
+
+@media all and (max-width: 1230px){
+.content,
+.sidebar{
+display: block;
+
+	}
+
+
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+@media all and (max-width: 1020px){
+
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.content{
+	background-color: #DCF7FB;
+	width:100%;
+	
+	margin-right: auto;
+	margin-left: auto;
+	float:left;
+	-webkit-border-radius: 15px; 
+	-moz-border-radius: 15px; /
+	border-radius: 15px;
+
+	box-shadow: 5px 5px 30px 2px #838B8B;
+}
+form{
+;
+color:white;
+
+}
+p{
+	font-size: 40px;
+	font-family: arial;
+	text-align: center;
+}
+
+
+
+}
+@media all and (max-width: 500px){
+
+.content{
+	background-color: green;
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-border-radius: 15px; 
+	-moz-border-radius: 15px; /
+	border-radius: 15px;
+
+	box-shadow: 5px 5px 30px 2px #838B8B;
+
+
+}
+
